@@ -22,7 +22,6 @@ def get_urls_for_content(resp):
     return ur  
 
 def get_content(urls):
-    img_list=[]    
     for u in urls:
         global c
         c+=1    
